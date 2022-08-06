@@ -1,0 +1,19 @@
+{
+  "name": "baseapi",
+  "version": "2.0.0",
+  "description": "",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenUser123/fireship-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenUser123/fireship-api/issues"
+  },
+  "homepage": "https://github.com/GenUser123/fireship-api#readme"
+}
