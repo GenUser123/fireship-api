@@ -1,23 +1,7 @@
-class IpRangeError extends Error {
+function overload () {
+    let i = 0;
 
-    message;
-    stack;
-    name;
-
-    constructor (name, message) {
-        this.message = message;
-        this.name = name;
-    } 
+    do {
+        console.log ("Hi")
+    } while (i < 20) 
 }
-
-
-function grabIpAdress (ip) {
-    if (!ip || typeof ip !== "string") {
-        throw new IpRangeError ("IP_NOT_VALID", "ip is not a string");
-    } 
-    return ip;
-}
-
-console.log (
-    grabIpAdress("CHINA")
-)
