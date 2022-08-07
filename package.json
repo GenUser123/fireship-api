@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GenUser123/fireship-api/issues"
   },
-  "homepage": "https://github.com/GenUser123/fireship-api#readme"
+  "homepage": "https://github.com/GenUser123/fireship-api#readme",
+  "dependencies": {
+    "require.js": "^1.0.0"
+  }
 }
