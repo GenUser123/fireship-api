@@ -1,6 +1,4 @@
-import { IpRangeError } from "./errors";
-
-console.log ("Hi");
+const { IpRangeError } = require("./errors")
 
 function grabIpAdress (ip) {
     if (!ip || typeof ip !== "string") {
